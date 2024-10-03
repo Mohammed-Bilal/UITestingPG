@@ -39,6 +39,7 @@ Option A:Using the Zipped File
 2. Navigate to the extracted folder.
 
 Option B: Cloning from GitHub
+
 Clone the repository using the command:
 `git clone https://github.com/Mohammed-Bilal/UITestingPG.git`
 Follow the instructions in the `README.md` file of the cloned project to set up 
