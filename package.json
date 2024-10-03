@@ -1,0 +1,26 @@
+{
+  "name": "uitestingpg",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:local": "cross-env ENV=local npx playwright test",
+    "test:prod": "cross-env ENV=prod npx playwright test",
+    "test:local:headed": "cross-env ENV=local npx playwright test --headed",
+    "test:local:headless": "cross-env ENV=local npx playwright test",
+    "test:prod:headed": "cross-env ENV=prod npx playwright test --headed",
+    "test:prod:headless": "cross-env ENV=prod npx playwright test"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.47.2",
+    "@types/node": "^22.7.4",
+    "playwright": "^1.47.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.2",
+    "cross-env": "^7.0.3"  
+  }
+}
