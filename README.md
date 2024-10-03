@@ -31,10 +31,17 @@ Before running the tests, you need to have the **UI Test Automation Playground**
 
 Follow the instructions in the `README.md` file of the cloned project to set up and run the application locally.
 
-### Step 2: Extract the Zip File
+### Step 2: Set Up the Project
+You have two options to set up the project:
 
+Option A:Using the Zipped File
 1. Download and extract the provided zip file to your local machine.
 2. Navigate to the extracted folder.
+
+Option B: Cloning from GitHub
+Clone the repository using the command:
+`git clone https://github.com/Mohammed-Bilal/UITestingPG.git`
+Follow the instructions in the `README.md` file of the cloned project to set up 
 
 ### Step 3: Open the Project in an IDE
 
